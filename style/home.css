@@ -1,0 +1,57 @@
+
+
+.audioPlayer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coverArt {
+    height: 80vh;
+    object-fit: contain;
+}
+
+.audioPlayer__controls {
+    width: 80vh;
+    display: flex;
+}
+
+.audioPlayer__buttons {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.audioPlayer__info {
+    width: 70%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.text {
+    margin: 0 20px;
+    padding: 20px 0;
+    font-family: Helvetica;
+    color: #58585c;
+    font-size: 1rem;
+}
+
+.text.-artistName {
+    border-bottom: 2px solid rgba(45, 45, 45, 0.3);
+}
+
+.text.-trackName {
+    font-weight: bold;
+}
+
